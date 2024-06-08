@@ -6,9 +6,9 @@ async function bootstrap() {
    const app = await NestFactory.create(AppModule);
    app.useGlobalFilters(new HttpExceptionFilter());
    const config = new DocumentBuilder()
-      .setTitle("Api Vas")
+      .setTitle("Api Gamertec")
       .setDescription(
-         `API Rest para uso exclusivo del aplicativo Vas. <br />
+         `API Rest para uso exclusivo de la web Gamertec. <br />
          <br />
          Links: [JSON Swagger](${process.env.API_SERVER ?? "http://localhost:3000/"}swagger-json)`,
       )
