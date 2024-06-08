@@ -1,6 +1,6 @@
-# Vas API
+# Gamertec API
 
-API REST, que se utilizara para el aplicaciton de gestion de proyectos Vas
+API REST, que se utilizara para la web Gamertec 
 
 ## Previsualización
 
