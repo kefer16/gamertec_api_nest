@@ -137,6 +137,11 @@ export class BrandService {
                typeVariable: VarChar(50),
                value: pBody.full_name,
             },
+            {
+               variableName: "pi_is_active",
+               typeVariable: Bit,
+               value: pBody.is_active,
+            },
          ];
 
          const transacction =
